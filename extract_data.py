@@ -84,7 +84,7 @@ class HTMLScapper():
                 pass
    
 if __name__ =='__main__':
-         scrapper = HTMLScapper(main_web_url='https://go.sellsy.com',web_data = 'web_data')
+         scrapper = HTMLScapper(main_web_url='https://go.sellsy.com',web_data_dir = 'web_data')
          scrapper.launch()
          scrapper.save_retrieved_html()
          
